@@ -16,7 +16,9 @@
 
   <p>
     <strong>Profile photo:</strong>
-    <%= user.profile_photo %>
+    <% if user.profile_photo.attached? %>
+      <image src="<%= (url_for(user.profile_photo)) %>">
+    <% end %>
   </p>
 
 </div>
