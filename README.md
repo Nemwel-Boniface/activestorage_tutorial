@@ -2,8 +2,8 @@
 
 This is a repository I created for the Ultimate guide to Active Storage series that I am writing to help teach what Active storage is and how you can use it in Ruby on Rails applications.
 
-Here is the first part of the article series.
-Here is the second part of the article series.
+[Here](https://dev.to/nemwelboniface/the-ultimate-guide-to-active-storage-in-rails-2f57) is the first part of the article series.
+[Here](https://dev.to/nemwelboniface/from-theory-to-practice-using-active-storage-for-file-management-in-rails-4o3f) is the second part of the article series.
 
 
 Enjoy!
