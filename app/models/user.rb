@@ -3,6 +3,13 @@ class User < ApplicationRecord
 
   validate :valid_image
 
+  extend FriendlyId
+  friendly_id :name, use: :slugged
+
+  def to_param
+    slug
+  end
+
   def valid_image
     return unless profile_photo.attached?
     
